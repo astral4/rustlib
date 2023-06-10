@@ -1,0 +1,11 @@
+[template]
+cargo_generate_version = ">=0.18.3"
+
+[placeholders.gh-username]
+type = "string"
+prompt = "GitHub username"
+regex = "^[A-Za-z0-9][A-Za-z0-9-]{0,38}$"
+
+[placeholders.project-description]
+type = "string"
+prompt = "Project description"
