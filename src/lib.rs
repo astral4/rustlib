@@ -2,7 +2,6 @@
 //!
 //! {{project-description}}
 
-#![allow(clippy::module_name_repetitions)]
 #![warn(clippy::pedantic, future_incompatible, unused)]
 #![deny(
     let_underscore_drop,
@@ -27,4 +26,5 @@
     unused_results,
     unused_tuple_struct_fields
 )]
+#![allow(clippy::module_name_repetitions)]
 #![cfg_attr(not(test), no_std)]
