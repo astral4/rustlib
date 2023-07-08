@@ -2,6 +2,7 @@
 //!
 //! {{project-description}}
 
+#![allow(clippy::module_name_repetitions)]
 #![warn(clippy::pedantic, future_incompatible, unused)]
 #![deny(
     let_underscore_drop,
