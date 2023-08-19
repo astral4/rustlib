@@ -9,6 +9,5 @@ repository = "https://github.com/{{gh-username}}/{{project-name}}"
 license = "MIT OR Apache-2.0"
 keywords = [""]
 categories = [""]
-include = ["LICENSE-*", "README.md", "src/**/*"]
 
 [dependencies]
