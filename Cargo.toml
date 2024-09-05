@@ -21,7 +21,6 @@ meta_variable_misuse = "deny"
 missing_abi = "deny"
 missing_copy_implementations = "warn"
 missing_debug_implementations = "warn"
-missing_docs = "warn"
 non_ascii_idents = "forbid"
 non_local_definitions = "warn"
 nonstandard_style = { level = "deny", priority = 1 }
@@ -30,13 +29,11 @@ rust_2018_idioms = { level = "deny", priority = 1 }
 trivial_casts = "deny"
 trivial_numeric_casts = "deny"
 unit_bindings = "deny"
-unnameable_types = "deny"
 unreachable_pub = "deny"
 unused_import_braces = "deny"
 unused_lifetimes = "deny"
 unused_macro_rules = "deny"
 unused_qualifications = "deny"
-unused_results = "deny"
 
 [lints.clippy]
 module_name_repetitions = { level = "allow", priority = 1 }
