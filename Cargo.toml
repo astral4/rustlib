@@ -13,6 +13,7 @@ categories = [""]
 [dependencies]
 
 [lints.rust]
+async_fn_in_trait = "allow"
 ffi_unwind_calls = "warn"
 let_underscore_drop = "deny"
 macro_use_extern_crate = "deny"
