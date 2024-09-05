@@ -25,9 +25,9 @@ must_not_suspend = "deny"
 non_ascii_idents = "forbid"
 non_exhaustive_omitted_patterns = "warn"
 non_local_definitions = "warn"
-nonstandard_style = "deny"
+nonstandard_style = { level = "deny", priority = 1 }
 redundant_lifetimes = "deny"
-rust_2018_idioms = "deny"
+rust_2018_idioms = { level = "deny", priority = 1 }
 trivial_casts = "deny"
 trivial_numeric_casts = "deny"
 unit_bindings = "deny"
