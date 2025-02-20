@@ -2,7 +2,7 @@
 name = "{{project-name}}"
 version = "0.0.0"
 authors = ["{{authors}}"]
-edition = "2021"
+edition = "2024"
 rust-version = "1.56"
 description = "{{project-description}}"
 documentation = "https://docs.rs/{{project-name}}"
